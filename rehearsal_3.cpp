@@ -1,6 +1,19 @@
 #include <iostream>
-
-//Write sumSqrt() here.
+#include <cmath>
+#include <iomanip>
+using namespace std;
+double sumSqrt(int N)
+{
+    double ans=0;
+    int i=1;
+    while(i<=N){
+        ans = ans + (1.0/sqrt(i));
+        
+        i++;
+    }
+    cout << setprecision(5) << fixed;
+    return ans;
+}
 
 
 int main()
