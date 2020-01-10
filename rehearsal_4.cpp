@@ -25,7 +25,8 @@ int main()
     string g = conpress("AB");
     string h = conpress("ABC");
     string i = conpress("ABCD");
-    
-    cout << a << "\n" << b << "\n" << c << "\n" << d << "\n" << e << "\n" << f << "\n" << g << "\n" << h << "\n" << i << "\n";
+    string k = conpress("CPECMU");
+    string l = conpress("X");
+    cout << a << "\n" << b << "\n" << c << "\n" << d << "\n" << e << "\n" << f << "\n" << g << "\n" << h << "\n" << i << "\n" << k << "\n" << l;
 
 }
